@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBE4BB87-DF1D-4FE9-8F6C-1E7E51B6EC59}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Icon1.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SAPEtiquetas</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>SAPEtiquetas</RootNamespace>
+    <StartupObject>SAPEtiquetas.My.MyApplication</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>3B21C18B00593F423EC831F4086C9B2C16C9EC4B</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Granell_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SAPEtiquetas.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SAPEtiquetas.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SAPEtiquetas.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SAPEtiquetas.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SAPEtiquetas.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SAPEtiquetas.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=9.2.3300.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=9.2.3300.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=9.2.3300.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Etiquetas\frmImpEtiquetas.Designer.vb">
+      <DependentUpon>frmImpEtiquetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Etiquetas\frmImpEtiquetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\CCliente.vb" />
+    <Compile Include="Impresion\Class1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmAlbB1.Designer.vb">
+      <DependentUpon>frmAlbB1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmAlbB1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmAlbB2.Designer.vb">
+      <DependentUpon>frmAlbB2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmAlbB2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmLot2.Designer.vb">
+      <DependentUpon>frmLot2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmLot2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmLot1.Designer.vb">
+      <DependentUpon>frmLot1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmLot1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmAlb1.Designer.vb">
+      <DependentUpon>frmAlb1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmAlb1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmAlb2.Designer.vb">
+      <DependentUpon>frmAlb2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmAlb2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmArt1.Designer.vb">
+      <DependentUpon>frmArt1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmArt1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmArt2.Designer.vb">
+      <DependentUpon>frmArt2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmArt2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmProv.Designer.vb">
+      <DependentUpon>frmProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmSeleccion.Designer.vb">
+      <DependentUpon>frmSeleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmSeleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmTra1.Designer.vb">
+      <DependentUpon>frmTra1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmTra1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion\frmTra2.Designer.vb">
+      <DependentUpon>frmTra2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\frmTra2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresora\frmPrinter.designer.vb">
+      <DependentUpon>frmPrinter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresora\frmPrinter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\frmInventario.Designer.vb">
+      <DependentUpon>frmInventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\frmInventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\frmValidacion.Designer.vb">
+      <DependentUpon>frmValidacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\frmValidacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mConstantes.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="principal\Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="Icon1.ico" />
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="SAP.ico" />
+    <EmbeddedResource Include="Etiquetas\frmImpEtiquetas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImpEtiquetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmAlbB1.resx">
+      <DependentUpon>frmAlbB1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmAlbB2.resx">
+      <DependentUpon>frmAlbB2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmLot2.resx">
+      <DependentUpon>frmLot2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmLot1.resx">
+      <DependentUpon>frmLot1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmAlb1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAlb1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmAlb2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAlb2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmArt1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmArt1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmArt2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmArt2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmProv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmSeleccion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSeleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmTra1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTra1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion\frmTra2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTra2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresora\frmPrinter.resx">
+      <DependentUpon>frmPrinter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\frmInventario.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\frmValidacion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmValidacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="principal\Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SAPbobsCOM">
+      <Guid>{FC8030BE-F5D2-4B8E-8F92-44228FE30100}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
